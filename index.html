@@ -3,92 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-       <div>
-            <h1>Sandeep Gupta </h1>
-            <p>Conatct : <a href="#">mrsandeepg0001@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/sandeep-gupta00001/">linkedin.com/in/sandeep-gupta00001/</a></p>
-            <p>LeetCode:<a href="https://leetcode.com/u/Sandeep_0001/">leetcode.com/u/Sandeep_0001/</a></p>
-       </div>
-       <div>
-        <table>
-            <tr>
-               <td><img src="/331286.jpg" height="251"></td> 
-               <td>I am a passionate B.Tech Computer Science student with a strong foundation in core programming languages like C, Python, and Java. Expertise in Data Structures & Algorithms (DSA) and a solid understanding of web development fundamentals (HTML, CSS, JavaScript) and Building Skills in Full-Stack Development.
-            </td>
-            </tr>
-           </table>
-    
-       </div>
-        
-       <section>
-        <h1>Education</h1>
-            <ul>
-                <li>GLA UNIVERSITY</li>
-                <li>St.Andrews Public School
-                </li>
-                
-            </ul>
-       </section>
+    <header>
+        <div class="navbar ">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
 
-       <section>
-        <h1>Work Experience</h1>
-        <h3>Software Engineer</h3>
-        <ul>
-            <li>Developed and mainatin website using HTML,CSS and JavaScript</li>
-            <li>Optimize code performance and improved application efficiency</li>
-        </ul>
-       </section>
+            <div class="nav-address border">
+                <p class="first">Deliver to</p> 
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="second">India</p>
+                </div>
+            </div>
 
-       <section>
-        <h1>Skills</h1>
-            <ul>
-                <li>Java</li>
-                <li>C language </li>
-                <li>python</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>MySQL</li>
+                <div class="nav-search">
+                    <select class="Search-select">
+                        <option>All</option>
+                    </select>
+                    <input type="text" placeholder="Search Amazon" class="Search-input">
+                    <div class="serach-icon"><i class="fa-solid fa-magnifying-glass"></i> </div>
+                </div>
 
-            </ul>
-       </section>
+                <div class="nav-signin border">
+                    <p><span>Hello, sign in</span></p>
+                    <p class="nav-second">Account & Lists</p>
+                </div>
+
+                <div class="nav-return border">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second">& Orders</p>
+                </div>
+
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                  </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+
+            <div class="panel-op">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gifts Cart</p>
+                <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+             
+        </div>
        
-       <section>
-        <h1>Projects</h1>
-        <ul>
-            <li><h3>AmazonClone</h3>
-            <p>Github link: <a href="#">github/link/amazon</a></p></li>
-            
-            <li><h3>Netlify</h3>
-                <p>Github link: <a href="#">github/link/amazon</a></p></li>
+    </header>
 
-                <li><h3>Spotify
-
-                </h3>
-                    <p>Github link: <a href="#">github/link/amazon</a></p></li>
-        
-        </ul>
-       </section>
-
-       <section>
-        <h2>Frequently asked  Questions</h2>
-        <details>
-            
-            <summary>
-                What is your Name?
-            </summary>
-            <p>Sandeep Gupta </p>
-            </details>
-       </section>
-
-       <footer>
-        <p>&copy; 2025 Sandeep All Rights Received.</p>
-       </footer>
-       
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast topit delivery, <a href="#">Click here to go to amazon.in</a> </p>
+        </div>
     </div>
+
+    <div class="shop">
+        <div class="box">
+            <div class="box-content">
+                <h2>Clothes</h2>
+                <div class="img" style="background-image: url('box1_image.jpg');"></div>
+                <p>see more</p>
+            </div>
+           
+        </div>
+        <div class="box"><div class="box-content">
+            <h2>Electronics</h2>
+            <div class="img" style="background-image: url('box2_image.jpg');"></div>
+            <p>see more</p>
+        </div></div>
+        <div class="box"><div class="box-content">
+                <h2>Furnitures</h2>
+                <div class="img" style="background-image: url('box3_image.jpg');"></div>
+                <p>see more</p>
+            </div></div>
+        <div class="box"><div class="box-content">
+                <h2>Mobile Phones</h2>
+                <div class="img" style="background-image: url('box4_image.jpg');"></div>
+                <p>see more</p>
+            </div></div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>Make-Up</h2>
+                    <div class="img" style="background-image: url('box5_image.jpg');"></div>
+                    <p>see more</p>
+                </div>
+               
+            </div>
+            <div class="box"><div class="box-content">
+                <h2>Pet Foods</h2>
+                <div class="img" style="background-image: url('box6_image.jpg');"></div>
+                <p>see more</p>
+            </div></div>
+            <div class="box"><div class="box-content">
+                    <h2>Toys</h2>
+                    <div class="img" style="background-image: url('box7_image.jpg');"></div>
+                    <p>see more</p>
+                </div></div>
+            <div class="box"><div class="box-content">
+                    <h2>Women Clothes</h2>
+                    <div class="img" style="background-image: url('box8_image.jpg');"></div>
+                    <p>see more</p>
+                </div></div>
+        
+    </div>
+    <footer>
+        <div class="panel-1">
+            <p>Back to Top</p>
+        </div>
+        <div class="panel-2">
+            <ul>
+                <p>Get to Know Us</p>
+
+                    <a>About Amazon</a>                    
+                    <a>Careers</a>
+                    <a>Press Releases</a>
+                    <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+
+                    <a>Facebook</a>                    
+                    <a>Twitter</a>
+                    <a>Instagram</a>
+                    
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+
+                    <a>Sell on Amazon</a>                    
+                    <a>Sell under Amazon Accelerator</a>
+                    <a> Protect and Build Your Brand</a>
+                    <a> Advertise Your Products</a>
+                    <a >Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You </p>
+
+                    <a>Your Account</a>                    
+                    <a> Returns Centre</a>
+                    <a>100% Purchase Protection</a>
+                    <a>Amazon App Download</a>
+                    <a >Help</a>
+            </ul>
+        </div>
+
+        <div class="panel-3">
+            <div class="logo">
+            </div>
+        </div>
+        <div class="panel-4">
+            <div class="pages">
+               <a href="#">Conditions of Use & Sale       </a>
+               <a href="#" >Privacy Notice</a>
+               <a href="#">Interest-Based Ads</a>
+            </div>
+            <div class="copyright">
+                
+                <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>
